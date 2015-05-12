@@ -1,0 +1,103 @@
+@media (min-width:841px) {
+
+body {
+  background-color: green;
+  font-size:62.5%
+}
+section{
+  max-width:99%;
+  margin:0 auto;
+}
+
+section img{
+  height:auto;
+  width:90%
+}
+
+.beetroot,
+.soup,
+.sashimi{
+  display:inline-block;
+  vertical-align:top;
+  text-align:left;
+  width:31%;
+  margin:1%;
+  font-size:1.5em;
+  color:blue;
+}
+
+
+
+}
+
+
+/*Tablet*/
+@media (max-width:840px) and (min-width: 500px){
+
+body {
+
+  background-color: red;
+}
+section{
+    max-width:99%;
+    margin:1%;
+}
+
+img{
+  verticle-align:middle;
+  display:inline-block;
+  width:45%;
+}
+
+.beetroot,
+.soup,
+.sashimi{
+  display:inline-block;
+  vertical-align:middle;
+  width:auto;
+  height:auto;
+}
+
+
+
+.text{
+  display:inline-block;
+  verticle-align:middle;
+  height:auto;
+  width:45%;
+}
+
+
+}
+
+/*Moblie*/
+@media (max-width:499px) and (min-width:0px) {
+
+body{
+  background-color:teal;
+}
+
+section{
+  max-width:99%
+  margin:1%
+}
+
+img{
+  width:auto;
+  height:auto;
+}
+
+.beetroot,
+.soup,
+.sashimi{
+  display:block;
+  vertical-align:middle;
+  text-align:center;
+  width:auto;
+  height:auto;
+  margin:2%;
+}
+
+
+
+}
