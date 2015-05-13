@@ -1,3 +1,5 @@
+@media (min-width:841px) {
+
 body{
   background-color:blue;
   font-size:62.5%
@@ -45,4 +47,89 @@ h1{
   width:31%;
   margin:1%;
   display:inline-block;
+}
+
+}
+
+/*Tablet*/
+@media (max-width:840px) and (min-width:500px) {
+
+body{
+    background-color:green;
+    font-size:62.5%;
+  }
+
+
+.column-one{
+  width:45%;
+  height:auto;
+  margin:2%;
+  display:inline-block;
+}
+
+.column-two{
+  width:45%;
+  height:auto;
+  margin:2%;
+  display:inline-block;
+}
+
+.column-three{
+  width:auto;
+  height:auto;
+  margin:3%;
+  display:inline-block;
+}
+
+.type-of-talent{
+  display:inline-block;
+}
+
+.favorite-drink{
+  display:inline-block;
+}
+
+.special-power{
+  display:inline-block;
+}
+
+.weapon-of-choice{
+  display:inline-block;
+}
+
+.comments{
+  display:inline-block;
+}
+
+h1{
+  color:white;
+  font-size:1.5em;
+}
+
+
+
+}
+
+@media (max-width:499px) and (min-width:0px) {
+
+body{
+  background-color:red;
+  font-size:62.5%;
+  }
+
+.column-one,
+.column-two,
+.column-three{
+  width:auto;
+  height:auto;
+  display:inline-block;
+  margin:2%;
+}
+
+h1{
+  color:white;
+  font-size:1.5em;
+}
+
+
 }
