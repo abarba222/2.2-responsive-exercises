@@ -1,5 +1,6 @@
 body{
   background-color:blue;
+  font-size:62.5%
 }
 
 .column-one{
@@ -9,7 +10,8 @@ body{
 }
 
 h1{
-
+  color:white;
+  font-size:1.5em
 }
 
 .first-name{
@@ -30,4 +32,17 @@ h1{
 
 .biography{
 
+}
+
+.column-two{
+  width:31%;
+  margin:1%;
+  display:inline-block;
+}
+
+
+.column-three{
+  width:31%;
+  margin:1%;
+  display:inline-block;
 }
